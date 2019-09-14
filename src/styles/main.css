@@ -1,0 +1,80 @@
+body {
+    background-color: #DADADA;
+}
+
+.login-form {
+    background-color: white;
+    width: 30%;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border-radius: 2%;
+}
+
+.login-title {
+    font-size: 30px;
+    text-align: center;
+    font-family: "lato";
+    color: #00B5AD
+}
+
+.ui.button {
+    margin-top: 20px;
+    width: 100%;
+    font-family: 'lato';
+    font-size: 18px;
+    background-color: #00B5AD;
+    color: white
+}
+
+.ui.form .field>label {
+    font-family: 'lato';
+    font-size: 18px;
+}
+
+.ui.form input {
+    font-family: 'lato';
+    font-size: 18px;
+}
+
+.login-alert {
+    font-family: 'lato';
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold
+}
+
+.ui.segment.container {
+    margin-top: 60px;
+}
+
+.description {
+    display: flex;
+}
+
+.description-image {
+    width: 50%;
+    height: 90%;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.Go_back {
+    top: 5%;
+    left: 5%;
+    position: absolute;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.log-out {
+    top: 15%;
+    left: 5%;
+    position: absolute;
+    font-size: 25px;
+    cursor: pointer;
+}
